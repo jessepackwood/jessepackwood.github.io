@@ -1,0 +1,37 @@
+#about {
+  background: #131313; }
+
+.about-title {
+  color: white; }
+
+.about-me-title {
+  font-family: "Raleway", sans-serif; }
+
+.skills {
+  font-family: "Raleway", sans-serif;
+  font-size: 18pt; }
+
+.icons {
+  width: 350px;
+  height: 200px; }
+
+.photo-icons {
+  width: 50%; }
+
+.portrait {
+  margin-left: 0;
+  border-radius: 5px;
+  width: 350px;
+  height: 500px;
+  background: url("../../assets/portrait.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.about-wrapper {
+  display: flex; }
+
+.about-me-text {
+  width: 40vw;
+  color: #fff;
+  font-size: 16pt;
+  font-family: 'Graphik', sans-serif; }

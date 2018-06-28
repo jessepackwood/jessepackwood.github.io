@@ -1,0 +1,13 @@
+$main-font: 'Raleway', sans-serif;
+$title-color: black;
+$background-color: white;
+$accent-color: orange;
+$blue: #274156;
+$black: #131313;
+$white: #f4f4f4;
+$light-blue: #00CEFF;
+
+@mixin block {
+  display: flex;
+  align-items: left;
+}

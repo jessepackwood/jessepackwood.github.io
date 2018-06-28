@@ -1,0 +1,25 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass-chokidar": "^0.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "react-scroll": "^1.7.6",
+    "react-scroll-to-component": "^1.0.2",
+    "react-typewriter": "^0.4.1",
+    "react-typing-animation": "^1.1.5",
+    "react-typist": "^2.0.4",
+    "react-typist-cycle": "^0.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build, dist/Typist.css",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  }
+}

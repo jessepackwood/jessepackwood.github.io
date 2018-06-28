@@ -1,0 +1,7 @@
+.box-one {
+  width: 25%;
+  height: 300px; }
+
+.box-two {
+  background-image: url("../../assets/coin-watch-screen.png");
+  background-size: cover; }

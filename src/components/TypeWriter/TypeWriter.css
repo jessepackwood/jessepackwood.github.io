@@ -1,0 +1,45 @@
+.typeWriter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  height: calc(100vh - 160px);
+  background: #131313;
+  font-color: #fff;
+  padding: 0 100px; }
+
+.arrow-wrapper {
+  height: 200px; }
+
+.Typist {
+  height: 200px;
+  font-family: 'Raleway';
+  color: #fff;
+  font-size: 20pt; }
+
+.arrow-down {
+  height: 35px;
+  margin-right: 25px;
+  animation: show 15.5s, glow 4s infinite;
+  opacity: 1;
+  animation-delay: 0s, 15.5s; }
+
+@keyframes show {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  95% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
+
+@keyframes glow {
+  0% {
+    opacity: .50; }
+  50% {
+    opacity: .75; }
+  75% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }

@@ -1,0 +1,47 @@
+@import '../../variable.scss';
+
+
+.coin-watch-screen {
+    width: calc(25% - 15px);
+}
+
+.block {
+  padding: 50px 100px;;
+  align-items: left;
+  height: 100vh;
+}
+
+.contact-title {
+  color: $black;
+}
+
+.contact-name {
+  font-family: $main-font;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background: $white;
+}
+
+.subtitle-wrapper {
+  width: 50%;
+}
+
+.contact-info {
+  border-radius: 5px;
+  font-family: 'Graphik', sans-serif;
+  line-height: 1.25em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $black;
+  width: 40vw;
+  height: 300px;
+  padding-left: 50px;
+}

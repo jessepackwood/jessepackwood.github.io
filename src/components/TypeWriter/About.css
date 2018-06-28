@@ -1,0 +1,62 @@
+.about {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: calc(100vh - 160px);
+  background: #274156;
+  font-color: #fff; }
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 6s steps(15, end), blink-caret 0.75s step-end infinite;
+  animation-iteration-count: 1; }
+
+.two {
+  animation-delay: 3.5s; }
+
+.three {
+  animation-delay: 7s; }
+
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 140px; } }
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: orange; } }
+
+.Typist {
+  padding-left: 100px;
+  font-family: 'Raleway';
+  color: #fff;
+  font-size: 18pt; }
+
+.arrow-down {
+  height: 30px;
+  width: 30px;
+  margin-left: 600px;
+  animation: show 5.9s;
+  opacity: 1; }
+
+@keyframes show {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  95% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
