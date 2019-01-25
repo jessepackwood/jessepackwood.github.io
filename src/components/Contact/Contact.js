@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='contact-info'>
           <h3 className='contact-name'>Jesse Packwood</h3>
           <span>Web Developer and Designer</span>
-          <span>hello@jessepackwood.com</span>
+          <span>jesse@lokithewolfdog.com</span>
           <span>+317 361 0166</span>
         </div>
       </div>
