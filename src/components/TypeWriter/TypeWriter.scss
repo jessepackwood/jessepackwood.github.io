@@ -64,3 +64,13 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .typeWriter {
+    height: calc(100vh - 200px); 
+    padding: 0 15px;
+  }
+  .typist {
+    font-size: 16pt;
+  }
+}
+

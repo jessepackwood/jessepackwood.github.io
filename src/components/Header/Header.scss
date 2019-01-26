@@ -8,12 +8,12 @@
   padding: 50px 100px;
   height: 120px;
   background: $black;
+  text-align: center;
 }
 
 .name-title {
   margin-right: auto;
   font-family: 'Raleway', sans-serif;
-  // align-self: flex-start;
   color: #fff;
   font-weight: 300;
 }
@@ -28,7 +28,6 @@
   padding-top: 20px;
   margin: 10px;
   display: flex;
-  // flex-direction: column;
   text-align: left;
   font-size: 11pt;
   color: #fff;
@@ -46,3 +45,33 @@
   }
 }
 
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    height: 100px;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  .nav-box {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: calc(100% - 34px);
+    top: 2px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .mobile-link-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+}

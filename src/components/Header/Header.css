@@ -4,7 +4,8 @@
   justify-content: flex-end;
   padding: 50px 100px;
   height: 120px;
-  background: #131313; }
+  background: #131313;
+  text-align: center; }
 
 .name-title {
   margin-right: auto;
@@ -34,3 +35,25 @@
   height: 27px; }
   .nav-link:hover {
     border-bottom: 1px solid #00CEFF; }
+
+.menu-icon {
+  display: none; }
+
+@media screen and (max-width: 414px) {
+  .header {
+    height: 100px;
+    padding: 10px 15px;
+    display: block; }
+  .nav-box {
+    display: none; }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: calc(100% - 34px);
+    top: 2px;
+    width: 30px;
+    height: 30px; }
+  .mobile-link-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px; } }

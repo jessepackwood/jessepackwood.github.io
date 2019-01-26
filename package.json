@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jessepackwood.com",
+  "homepage": "https://www.jessepackwood.com",
   "dependencies": {
     "node-sass-chokidar": "^0.0.3",
     "npm": "^6.1.0",
