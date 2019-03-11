@@ -16,11 +16,9 @@ const Projects = () => {
         <img className='coin-watch-ipad' src={coinWatchIpad} alt='iphone screen display' />
       </div>
       <div className='other-projects'>
-        <div>
-          <span>Movie Tracker</span>
-        </div>
-        <span>SWapiBox</span>
-        <span>Weathrly</span>
+        <span><a href='https://github.com/katiescruggs/movie-tracker-frontend' className='project-link'>Movie Tracker</a></span>
+        <span><a href='https://github.com/jessepackwood/swapiBox'className='project-link'></a>SWapiBox</span>
+        <span><a href='https://jessepackwood.github.io/weathrly/'className='project-link'></a>Weathrly</span>
       </div>
     </div>
     )

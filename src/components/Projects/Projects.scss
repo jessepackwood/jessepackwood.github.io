@@ -35,6 +35,13 @@
   font-size: 18pt;
 }
 
+.project-link {
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 #projects {
   padding: 50px 100px;
   background: $white;
@@ -48,4 +55,31 @@
   color: $black;
   font-weight: 300;
   font-size: 18pt;
+}
+
+@media screen and (max-width: 414px) {
+  #projects {
+    padding: 5px;
+    height: 100vh;
+  }
+
+  .coin-watch-project {
+    width: 100%;
+  }
+
+  .other-projects {
+    display: block;
+    height: 60vh;
+    padding: 5px;
+    vertical-align: middle;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .other-projects span {
+    display: block;
+    margin: 10px;
+  }
+
+
 }

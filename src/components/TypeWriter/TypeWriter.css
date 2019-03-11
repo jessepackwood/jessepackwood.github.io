@@ -44,9 +44,9 @@
   100% {
     opacity: 1; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .typeWriter {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 120px);
     padding: 0 15px; }
   .typist {
     font-size: 16pt; } }

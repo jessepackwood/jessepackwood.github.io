@@ -1,6 +1,6 @@
-import React from 'react';
-import './Header.css';
-import menuIcon from '../../assets/menu.svg';
+import React from 'react'
+import './Header.css'
+import menuIcon from '../../assets/menu.svg'
 
 const Header = ({toggleMobileMenu, menuOpened}) => {
   return (

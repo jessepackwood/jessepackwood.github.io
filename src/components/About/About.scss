@@ -48,3 +48,36 @@
   font-size: 16pt;
   font-family: 'Graphik', sans-serif;
 }
+
+@media screen and (max-width: 414px) {
+  #about {
+    padding: 5px 5px;
+  }
+
+  .portrait {
+    width: 175px;
+    height: 250px;
+  }
+
+  .skills {
+    font-size: 14pt;
+  }
+
+  .about-wrapper {
+    display: block;
+  }
+
+  .photo-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .icons {
+    width: 175px;
+  }
+
+  .about-me-text {
+    width: 100vw;
+  }
+}
