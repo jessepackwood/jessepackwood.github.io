@@ -26,7 +26,7 @@ const About = () => {
           <p>
             When not coding or designing, his time goes into other passions such as motorcycles, photography, and traveling the world.
           </p>
-          <h3 className='skills'> Skills </h3>
+          <h3 className='skills'> Experience </h3>
           <p>
             Javascript, React, Redux, HTML5, CSS3, SQL, Node, Sketch
           </p>
