@@ -28,8 +28,9 @@ const About = () => {
           </p>
           <h3 className='skills'> Skills </h3>
           <p>
-            React, Redux, HTML5, CSS3, SASS, JavaScript, Node, Sketch, Lightroom
+            Javascript, React, Redux, HTML5, CSS3, SQL, Node, Sketch
           </p>
+          <h3 className='resume'>Resume</h3>
         </div>
       </div>
     </div>
