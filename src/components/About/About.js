@@ -24,13 +24,13 @@ const About = () => {
             He received a Bachelor's of Science in Economics from Indiana University in 2015 and recently graduated from the Turing School of Software and Design.
           </p>
           <p>
-            When not coding or designing, his time goes into other passions such as motorcycles, photography, and traveling the world.
+            When not coding, his time goes into other passions such as motorcycles, photography, and traveling the world.
           </p>
           <h3 className='skills'> Experience </h3>
           <p>
             Javascript, React, Redux, HTML5, CSS3, SQL, Node, Sketch
           </p>
-          <h3 className='resume'>Resume</h3>
+          <a><h3 className='resume'>Resume</h3></a>
         </div>
       </div>
     </div>

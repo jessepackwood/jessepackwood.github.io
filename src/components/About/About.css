@@ -36,9 +36,14 @@
   font-size: 16pt;
   font-family: 'Graphik', sans-serif; }
 
+.resume:hover {
+  cursor: pointer; }
+
 @media screen and (max-width: 414px) {
   #about {
-    padding: 5px 5px; }
+    height: 800px;
+    padding: 5px 5px;
+    display: block; }
   .portrait {
     width: 175px;
     height: 250px; }
@@ -52,5 +57,10 @@
     width: 100vw; }
   .icons {
     width: 175px; }
+  .about-me-title {
+    font-size: 14pt; }
   .about-me-text {
-    width: 100vw; } }
+    width: 100vw;
+    font-size: 12pt; }
+  .resume {
+    font-size: 18pt; } }

@@ -40,7 +40,11 @@
   .block {
     display: block; }
   #contact {
+    height: 100vh;
     display: block;
     padding: 5px; }
   .contact-info {
-    width: 100vw; } }
+    padding: 10px;
+    padding-left: 10px;
+    width: 80vw;
+    margin: 0 auto; } }
