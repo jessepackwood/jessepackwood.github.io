@@ -11,6 +11,7 @@ const Projects = () => {
         <h2 className='subtitle'>Projects</h2>
       </div>
       <div className='coin-watch-project'>
+        <a href='https://https://jessepackwood.github.io/CoinWatch/'><h2 className='featured-project-title'>Coin Watch</h2></a>
         <img className='coin-watch-phone' src={coinWatchPhone} alt='iphone screen display' />
         <img className='coin-watch' src={coinWatchScreen} alt='GIF of CoinWatch welcome screen' />
         <img className='coin-watch-ipad' src={coinWatchIpad} alt='iphone screen display' />
