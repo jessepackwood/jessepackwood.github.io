@@ -5,6 +5,7 @@
   color: white; }
 
 .about-me-title {
+  margin-top: 0;
   font-family: "Raleway", sans-serif; }
 
 .skills {
@@ -35,6 +36,11 @@
   color: #fff;
   font-size: 16pt;
   font-family: 'Graphik', sans-serif; }
+
+.resume {
+  color: #00CEFF; }
+  .resume:visited {
+    color: orange; }
 
 .resume:hover {
   cursor: pointer; }

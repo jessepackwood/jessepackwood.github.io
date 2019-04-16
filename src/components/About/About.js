@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 // import portrait from '../../assets/portrait.jpg'
+import resume from '../../assets/Jesse-Packwood-Resume.pdf'
 
 const About = () => {
   return (
@@ -28,9 +29,9 @@ const About = () => {
           </p>
           <h3 className='skills'> Experience </h3>
           <p>
-            Javascript, React, Redux, HTML5, CSS3, SQL, Node, Sketch
+            Javascript, React, Redux, HTML5, CSS3, SQL, Node, TDD,Sketch
           </p>
-          <a href='/assets/Jesse-Packwood-Resume.pdf'><h3 className='resume'>Resume</h3></a>
+          <a href={resume}><h3 className='resume'>Resume</h3></a>
         </div>
       </div>
     </div>

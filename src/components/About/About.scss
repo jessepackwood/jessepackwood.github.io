@@ -9,6 +9,7 @@
 }
 
 .about-me-title {
+  margin-top: 0;
   font-family: $main-font;
   // color: $light-blue;
 }
@@ -47,6 +48,13 @@
   color: #fff;
   font-size: 16pt;
   font-family: 'Graphik', sans-serif;
+}
+
+.resume {
+  color: $light-blue;
+  &:visited {
+    color: orange;
+  }
 }
 
 .resume:hover {
