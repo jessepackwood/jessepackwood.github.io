@@ -38,7 +38,8 @@
   font-family: 'Graphik', sans-serif; }
 
 .resume {
-  color: #00CEFF; }
+  color: #00CEFF;
+  text-decoration: none; }
   .resume:visited {
     color: orange; }
 

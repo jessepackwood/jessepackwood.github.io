@@ -31,7 +31,7 @@ const About = () => {
           <p>
             Javascript, React, Redux, HTML5, CSS3, SQL, Node, TDD,Sketch
           </p>
-          <a href={resume}><h3 className='resume'>Resume</h3></a>
+          <a href={resume} className='resume'><h3 >Resume</h3></a>
         </div>
       </div>
     </div>
