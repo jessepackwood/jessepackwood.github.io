@@ -21,7 +21,7 @@ const About = () => {
             Jesse Packwood is a web developer and designer living in Denver, CO.
           </h3>
           <p>
-            He received a Bachelor's of Science in Economics from Indiana University in 2015 and recently graduated from the Turing School of Software and Design.
+            He received a Bachelor's of Science in Economics from Indiana University and recently graduated from the Turing School of Software and Design.
           </p>
           <p>
             When not coding, his time goes into other passions such as motorcycles, photography, and traveling the world.
@@ -30,7 +30,7 @@ const About = () => {
           <p>
             Javascript, React, Redux, HTML5, CSS3, SQL, Node, Sketch
           </p>
-          <a><h3 className='resume'>Resume</h3></a>
+          <a href='/assets/Jesse-Packwood-Resume.pdf'><h3 className='resume'>Resume</h3></a>
         </div>
       </div>
     </div>

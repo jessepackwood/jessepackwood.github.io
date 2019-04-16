@@ -4,7 +4,6 @@
 
 .coin-watch {
     width: calc(50% - 15px);
-
     height: calc((50% - 15px) * 6/8);
 }
 
@@ -12,7 +11,7 @@
     width: calc(12% - 15px);
     height: calc((12% - 15px) * 6/8);
     align-self: flex-end;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .coin-watch-ipad {
@@ -27,6 +26,14 @@
   justify-content: center;
 }
 
+.featured-project-title {
+  text-align: center;
+  color: orange;
+  text-decoration: none;
+  margin: 0 auto;
+  // display: block;
+}
+
 .other-projects {
   display: flex;
   justify-content: space-around;
@@ -39,6 +46,9 @@
   text-decoration: none;
   &:hover {
     cursor: pointer;
+  }
+  &:visited {
+    color: orange;
   }
 }
 
