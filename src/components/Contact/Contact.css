@@ -1,10 +1,14 @@
-.coin-watch-screen {
-  width: calc(25% - 15px); }
+.route-link {
+  color: #f4f4f4;
+  text-decoration: none; }
+
+.route-link:visited {
+  color: #f4f4f4; }
 
 .block {
   padding: 50px 100px;
   align-items: left;
-  height: 100vh; }
+  height: calc(100vh - 150px); }
 
 .contact-title {
   color: #131313; }
@@ -35,6 +39,10 @@
   width: 40vw;
   height: 300px;
   padding-left: 50px; }
+
+.plus {
+  display: inline-block;
+  color: #00CEFF; }
 
 @media screen and (max-width: 414px) {
   .block {

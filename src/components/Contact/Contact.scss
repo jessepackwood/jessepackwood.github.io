@@ -1,14 +1,10 @@
 @import '../../variable.scss';
 
 
-.coin-watch-screen {
-    width: calc(25% - 15px);
-}
-
 .block {
   padding: 50px 100px;;
   align-items: left;
-  height: 100vh;
+  height: calc(100vh - 150px);
 }
 
 .contact-title {
@@ -44,6 +40,11 @@
   width: 40vw;
   height: 300px;
   padding-left: 50px;
+}
+
+.plus {
+  display: inline-block;
+  color: $light-blue;
 }
 
 @media screen and (max-width: 414px) {
