@@ -1,3 +1,10 @@
+.route-link {
+  color: #f4f4f4;
+  text-decoration: none; }
+
+.route-link:visited {
+  color: #f4f4f4; }
+
 .coin-watch {
   width: calc(50% - 15px);
   height: calc((50% - 15px) * 6/8); }

@@ -7,6 +7,15 @@ $black: #131313;
 $white: #f4f4f4;
 $light-blue: #00CEFF;
 
+.route-link {
+  color: $white;
+  text-decoration: none;
+}
+
+.route-link:visited {
+  color: $white;
+}
+
 @mixin block {
   display: flex;
   align-items: left;

@@ -1,18 +1,25 @@
+.route-link {
+  color: #f4f4f4;
+  text-decoration: none; }
+
+.route-link:visited {
+  color: #f4f4f4; }
+
 .typeWriter {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   text-align: left;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 150px);
   background: #131313;
   font-color: #fff;
   padding: 0 100px; }
 
 .arrow-wrapper {
-  height: 200px; }
+  height: 100px; }
 
 .Typist {
-  height: 200px;
+  height: 100px;
   font-family: 'Raleway';
   color: #fff;
   font-size: 20pt; }
