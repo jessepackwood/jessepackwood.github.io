@@ -13,9 +13,9 @@ const About = () => {
         <div className='photo-icons'>
           <div className='portrait'>
           </div>
-          <div className='icons'>
+          {/* <div className='icons'>
             icons
-          </div>
+          </div> */}
         </div>
         <div className='about-me-text'>
           <h3 className='about-me-title'>
@@ -29,7 +29,7 @@ const About = () => {
           </p>
           <h3 className='skills'> Experience </h3>
           <p>
-            Javascript, React, Redux, HTML5, CSS3, SQL, Node, TDD,Sketch
+            Javascript, React, Redux, HTML5, CSS3, SQL, Node, TDD, Sketch
           </p>
           <a href={resume} className='resume'><h3 >Resume</h3></a>
         </div>
