@@ -5,7 +5,6 @@ import './Photography.css'
 const Gallery = () => {
   return (
     <div className="gallery">
-      GALLERY
       <img src={ photo } className='umpqua-photo' />
     </div>
   )
