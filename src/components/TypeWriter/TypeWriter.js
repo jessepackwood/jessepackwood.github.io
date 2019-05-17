@@ -2,6 +2,7 @@ import React from 'react'
 import './TypeWriter.css'
 import Typist from 'react-typist'
 import arrowDown from '../../assets/down-arrows.svg'
+import { Link } from 'react-router-dom'
 
 const TypeWriter = () => {
   return (
@@ -13,12 +14,12 @@ const TypeWriter = () => {
         <Typist.Backspace count={10} delay={1000} />
         <span className='typing'>Are you looking to hire a developer?</span>
         <Typist.Backspace count={50} delay={1000} />
-        <span>Scroll down to learn more.</span>
+        <span>Click here to learn more.</span>
       </Typist>
       <div className='arrow-wrapper'>
-        <a href='#projects' >
+        <Link to='projects' className='route-link'>
           <img className='arrow-down'src={arrowDown} alt='nav arrow down' />
-        </a>
+        </Link>
       </div>
     </div>
   )
