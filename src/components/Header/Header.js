@@ -23,7 +23,11 @@ const Header = ({toggleMobileMenu, menuOpened}) => {
         </div>
         <div className='nav-box'>
           <span className='nav-link'><Link to='projects' className='route-link'>Projects</Link></span>
-          <span className='nav-link'><Link to='/photography' className='route-link'>Photography</Link></span>
+          <span className='photo-link'>
+            <Link to='/gallery' className='route-link'>Photography</Link>
+            <Link to='/presets' className='presets-link'>Presets</Link>
+            <Link to='/gallery' className='presets-link'>Gallery</Link>
+          </span>
           <span className='nav-link'><Link to='/about' className='route-link'>About</Link></span>
           <span className='nav-link'><Link to='/contact' className='route-link'>Contact</Link></span>
         </div>

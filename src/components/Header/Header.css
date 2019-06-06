@@ -44,6 +44,23 @@
   .nav-link:hover {
     border-bottom: 1px solid #00CEFF; }
 
+.photo-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  height: 50px; }
+
+.presets-link {
+  display: none;
+  margin-top: 5px;
+  color: #00CEFF;
+  text-decoration: none; }
+
+.photo-link:hover .presets-link {
+  display: block;
+  text-align: center;
+  height: 23px; }
+
 .menu-icon {
   display: none; }
 
