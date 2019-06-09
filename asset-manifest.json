@@ -1,15 +1,23 @@
 {
-  "main.css": "static/css/main.da70ce77.css",
-  "main.css.map": "static/css/main.da70ce77.css.map",
-  "main.js": "static/js/main.5cc810bd.js",
-  "main.js.map": "static/js/main.5cc810bd.js.map",
+  "main.css": "static/css/main.ff7d2879.css",
+  "main.css.map": "static/css/main.ff7d2879.css.map",
+  "main.js": "static/js/main.47a1d2ba.js",
+  "main.js.map": "static/js/main.47a1d2ba.js.map",
   "static/media/Jesse-Packwood-Resume.pdf": "static/media/Jesse-Packwood-Resume.2eee3d5e.pdf",
   "static/media/colombia_fly.jpg": "static/media/colombia_fly.e610f6ba.jpg",
   "static/media/down-arrows.svg": "static/media/down-arrows.9d57c40e.svg",
+  "static/media/grizzly_after.jpg": "static/media/grizzly_after.d7a01c15.jpg",
+  "static/media/grizzly_before.jpg": "static/media/grizzly_before.1ece4bbb.jpg",
+  "static/media/hero_after_canoe.jpg": "static/media/hero_after_canoe.5c477705.jpg",
+  "static/media/hero_before_canoe.jpg": "static/media/hero_before_canoe.2b642850.jpg",
   "static/media/ipad-coin-watch.png": "static/media/ipad-coin-watch.cd4e882b.png",
   "static/media/iphone-coin-watch.png": "static/media/iphone-coin-watch.1a0a05d7.png",
   "static/media/kayla_buff.jpg": "static/media/kayla_buff.432459d5.jpg",
   "static/media/macbook-coin-watch.png": "static/media/macbook-coin-watch.06477197.png",
   "static/media/menu.svg": "static/media/menu.a159269a.svg",
-  "static/media/portrait.jpg": "static/media/portrait.b4996eca.jpg"
+  "static/media/portrait.jpg": "static/media/portrait.b4996eca.jpg",
+  "static/media/villian_after.jpg": "static/media/villian_after.fd0b0002.jpg",
+  "static/media/villian_before.jpg": "static/media/villian_before.74c7a1a9.jpg",
+  "static/media/wildtogether_after.jpg": "static/media/wildtogether_after.666990fc.jpg",
+  "static/media/wildtogether_before.jpg": "static/media/wildtogether_before.ba41df30.jpg"
 }
