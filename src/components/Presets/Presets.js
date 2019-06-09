@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import BeforeAfterSlider from 'react-before-after-slider'
 import ReactCompareImage from 'react-compare-image'
 import villain_before from '../../assets/photos/villian_before.jpg'
 import villain_after from '../../assets/photos/villian_after.jpg'

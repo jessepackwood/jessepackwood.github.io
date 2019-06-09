@@ -1,8 +1,7 @@
 import React from 'react'
 import './Header.css'
 import menuIcon from '../../assets/menu.svg'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
-import TypeWriter from '../TypeWriter/TypeWriter'
+import { Link } from "react-router-dom"
 
 const Header = ({toggleMobileMenu, menuOpened}) => {
 
@@ -11,7 +10,7 @@ const Header = ({toggleMobileMenu, menuOpened}) => {
       <h1 className='name-title'><Link to='/' className='route-link'>Jesse Packwood</Link></h1>
       <div className='nav-container'>
         <div className='mobile-menu'>
-          <img src={menuIcon} className='menu-icon' onClick={toggleMobileMenu} />
+          <img src={menuIcon} alt={"Menu-icon"} className='menu-icon' onClick={toggleMobileMenu} />
           {menuOpened && (
               <div className='mobile-link-container'>
                 <span className='nav-link'><Link to='projects' className='route-link' onClick={toggleMobileMenu}>Projects</Link></span>

@@ -1,5 +1,4 @@
 import React from 'react'  
-import coinWatchScreen from '../../assets/macbook-coin-watch.png'
 import './Contact.css'
 
 const Contact = () => {
