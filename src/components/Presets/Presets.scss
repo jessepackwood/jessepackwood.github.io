@@ -1,3 +1,26 @@
-.preset {
+@import '../../variable.scss';
 
+.preset-container {
+  width: 100vw;
+
+}
+
+.preset-about {
+  padding: 25px;
+}
+
+.slider-container {
+  padding: 25px;
+}
+
+.slider-instruction {
+  display: block;
+  margin-top: 10px;
+}
+
+.preset-shop-link {
+  color: $light-blue;
+  &:visited {
+    color: $blue;
+  }
 }

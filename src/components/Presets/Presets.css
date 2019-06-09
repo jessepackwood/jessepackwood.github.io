@@ -1,0 +1,24 @@
+.route-link {
+  color: #f4f4f4;
+  text-decoration: none; }
+
+.route-link:visited {
+  color: #f4f4f4; }
+
+.preset-container {
+  width: 100vw; }
+
+.preset-about {
+  padding: 25px; }
+
+.slider-container {
+  padding: 25px; }
+
+.slider-instruction {
+  display: block;
+  margin-top: 10px; }
+
+.preset-shop-link {
+  color: #00CEFF; }
+  .preset-shop-link:visited {
+    color: #274156; }
