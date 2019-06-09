@@ -64,10 +64,16 @@
 .menu-icon {
   display: none; }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 680px) {
+  .header {
+    padding: 10px 15px; } }
+
+@media screen and (max-width: 575px) {
   .header {
     height: 100px;
     padding: 10px 15px;
+    display: block; }
+  .presets-link {
     display: block; }
   .nav-box {
     display: none; }
@@ -81,4 +87,6 @@
   .mobile-link-container {
     display: flex;
     flex-direction: column;
-    width: 375px; } }
+    width: 375px;
+    background-color: #131313;
+    z-index: 1; } }

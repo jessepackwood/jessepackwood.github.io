@@ -14,10 +14,12 @@ const Header = ({toggleMobileMenu, menuOpened}) => {
           <img src={menuIcon} className='menu-icon' onClick={toggleMobileMenu} />
           {menuOpened && (
               <div className='mobile-link-container'>
-                <a className='nav-link' href='#projects'>Projects</a>
-                <a className='nav-link' href='#about'>About</a>
-                <a className='nav-link' href='#contact'>Contact</a>
-                <a className='nav-link' href='#contact'>Github</a>
+                <span className='nav-link'><Link to='projects' className='route-link' onClick={toggleMobileMenu}>Projects</Link></span>
+                <span className='nav-link'>
+                  <Link to='/gallery' className='route-link' onClick={toggleMobileMenu}>Photography</Link>
+                </span>
+                <span className='nav-link'><Link to='/about' className='route-link' onClick={toggleMobileMenu}>About</Link></span>
+                <span className='nav-link'><Link to='/contact' className='route-link' onClick={toggleMobileMenu}>Contact</Link></span>
               </div>
             )}
         </div>
