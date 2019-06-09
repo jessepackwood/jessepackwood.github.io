@@ -13,12 +13,11 @@ const Header = ({toggleMobileMenu, menuOpened}) => {
           <img src={menuIcon} alt={"Menu-icon"} className='menu-icon' onClick={toggleMobileMenu} />
           {menuOpened && (
               <div className='mobile-link-container'>
-                <span className='nav-link'><Link to='projects' className='route-link' onClick={toggleMobileMenu}>Projects</Link></span>
-                <span className='nav-link'>
-                  <Link to='/gallery' className='route-link' onClick={toggleMobileMenu}>Photography</Link>
-                </span>
-                <span className='nav-link'><Link to='/about' className='route-link' onClick={toggleMobileMenu}>About</Link></span>
-                <span className='nav-link'><Link to='/contact' className='route-link' onClick={toggleMobileMenu}>Contact</Link></span>
+                <span className='nav-link mobile-link'><Link to='projects' className='route-link' onClick={toggleMobileMenu}>Dev Projects</Link></span>
+                <span className='nav-link mobile-link'><Link to='presets' className='route-link' onClick={toggleMobileMenu}>Lightroom Presets</Link></span>
+                <span className='nav-link mobile-link'><Link to='gallery' className='route-link' onClick={toggleMobileMenu}>Gallery</Link></span>                
+                <span className='nav-link mobile-link'><Link to='/about' className='route-link' onClick={toggleMobileMenu}>About</Link></span>
+                <span className='nav-link mobile-link'><Link to='/contact' className='route-link' onClick={toggleMobileMenu}>Contact</Link></span>
               </div>
             )}
         </div>

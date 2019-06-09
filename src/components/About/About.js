@@ -15,10 +15,10 @@ const About = () => {
         <div className='about-me-text'>
           <h2 className='about-title'>About</h2>
           <h3 className='about-me-title'>
-            Jesse Packwood is a software engineer and photographer living in Denver, CO.
+            Jesse is a software engineer and photographer living in Denver, CO.
           </h3>
           <p>
-            He received a Bachelor's of Science in Economics from Indiana University and recently graduated from the Turing School of Software and Design.
+            He received a Bachelor's of Science in Economics from Indiana University and recently graduated with a full stack education from the Turing School of Software and Design.
           </p>
           <p>
             When not coding, his time goes into other passions such as motorcycles, snowboarding, and traveling the world.
