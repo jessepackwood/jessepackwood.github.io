@@ -6,10 +6,16 @@
   color: #f4f4f4; }
 
 #about {
-  background: #131313; }
+  background: #131313;
+  height: calc(100vh - 150px); }
 
 .about-title {
-  color: white; }
+  color: white;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  padding: 5px; }
 
 .about-me-title {
   margin-top: 0;
@@ -36,13 +42,18 @@
   background-position: center; }
 
 .about-wrapper {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 .about-me-text {
   width: 40vw;
   color: #fff;
   font-size: 16pt;
-  font-family: 'Graphik', sans-serif; }
+  font-family: 'Graphik', sans-serif;
+  margin-left: 50px; }
+
+.about-me-text p {
+  margin: 10px 0; }
 
 .resume {
   color: #00CEFF;
@@ -53,28 +64,31 @@
 .resume:hover {
   cursor: pointer; }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 725px) {
   #about {
     height: 800px;
     padding: 5px 5px;
     display: block; }
   .portrait {
-    width: 175px;
-    height: 250px; }
+    width: 350x;
+    height: 400px; }
   .skills {
     font-size: 14pt; }
   .about-wrapper {
-    display: block; }
-  .photo-icons {
     display: flex;
-    justify-content: space-between;
-    width: 100vw; }
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
   .icons {
     width: 175px; }
   .about-me-title {
     font-size: 14pt; }
   .about-me-text {
     width: 100vw;
-    font-size: 12pt; }
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px; }
+  .about-me-text p {
+    margin: 10px; }
   .resume {
     font-size: 18pt; } }

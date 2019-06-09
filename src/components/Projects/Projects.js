@@ -6,11 +6,11 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div id='projects' className='block'>
+    <div id='projects'>
       <div>
         <h2 className='subtitle'>Projects</h2>
       </div>
-      <div>Coin Watch is a web app that allows users to simply calculate the value of your existing crypto portfolio or mock the value of your potential investment in a few easy steps.  </div>
+      <div className='featured-project-description'>Coin Watch is a web app that allows users to simply calculate the value of your existing crypto portfolio or mock the value of your potential investment in a few easy steps.  </div>
       <a href='https://jessepackwood.github.io/CoinWatch/'>
         <div className='coin-watch-project'>
           <img className='coin-watch-phone' src={coinWatchPhone} alt='iphone screen display' />

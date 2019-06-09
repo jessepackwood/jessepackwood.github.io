@@ -9,8 +9,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   padding: 25px 100px;
-  height: 100px;
+  height: 150px;
   background: #131313;
   text-align: center; }
 
@@ -24,13 +25,14 @@
 .nav-container {
   display: flex;
   justify-content: center;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
 
 .nav-box {
-  padding-top: 20px;
-  margin: 10px;
   display: flex;
+  align-items: center;
   text-align: left;
+  padding-top: 5px;
   font-size: 11pt;
   color: #fff;
   font-family: 'Graphik', sans-serif;
@@ -48,7 +50,7 @@
   margin: 0 10px;
   text-decoration: none;
   color: #fff;
-  height: 50px; }
+  height: 27px; }
 
 .presets-link {
   display: none;
@@ -88,5 +90,6 @@
     display: flex;
     flex-direction: column;
     width: 375px;
+    height: 100vh;
     background-color: #131313;
     z-index: 1; } }

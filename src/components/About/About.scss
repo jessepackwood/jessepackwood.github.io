@@ -2,10 +2,16 @@
 
 #about {
   background: #131313;
+  height: calc(100vh - 150px);
 }
 
 .about-title {
   color: white;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  padding: 5px;
 }
 
 .about-me-title {
@@ -40,7 +46,7 @@
 
 .about-wrapper {
   display: flex;
-  // justify-content: space-around;
+  justify-content: space-around;
 }
 
 .about-me-text {
@@ -48,6 +54,11 @@
   color: #fff;
   font-size: 16pt;
   font-family: 'Graphik', sans-serif;
+  margin-left: 50px;
+}
+
+.about-me-text p {
+  margin: 10px 0;
 }
 
 .resume {
@@ -62,11 +73,8 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1005px) {
-  
-}
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 725px) {
   #about {
     height: 800px;
     padding: 5px 5px;
@@ -74,8 +82,8 @@
   }
 
   .portrait {
-    width: 175px;
-    height: 250px;
+    width: 350x;
+    height: 400px;
   }
 
   .skills {
@@ -83,14 +91,17 @@
   }
 
   .about-wrapper {
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .photo-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-  }
+  // .photo-icons {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   width: 100vw;
+  // }
 
   .icons {
     width: 175px;
@@ -101,6 +112,12 @@
   .about-me-text {
     width: 100vw;
     font-size: 12pt;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .about-me-text p {
+    margin: 10px;
   }
   .resume {
     font-size: 18pt;

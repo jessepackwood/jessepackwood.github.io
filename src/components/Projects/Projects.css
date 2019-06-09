@@ -32,6 +32,9 @@
   text-decoration: none;
   margin: 0 auto; }
 
+.featured-project-description {
+  margin-top: 10px; }
+
 .other-projects {
   display: flex;
   justify-content: space-around;
