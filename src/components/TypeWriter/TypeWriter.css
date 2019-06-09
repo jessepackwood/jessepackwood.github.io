@@ -54,6 +54,8 @@
 @media screen and (max-width: 414px) {
   .typeWriter {
     height: calc(100vh - 120px);
-    padding: 0 15px; }
+    padding: 100px 15px; }
+  .arrow-down {
+    margin: 0; }
   .typist {
     font-size: 16pt; } }
