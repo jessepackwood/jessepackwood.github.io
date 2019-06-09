@@ -24,6 +24,14 @@
   background: $white;
 }
 
+.contact-email-link {
+  color: $light-blue;
+  text-decoration: none;
+  & :visited {
+    color: $accent-color;
+  }
+}
+
 .subtitle-wrapper {
   width: 50%;
 }

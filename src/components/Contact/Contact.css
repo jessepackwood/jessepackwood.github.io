@@ -24,6 +24,12 @@
   align-items: center;
   background: #f4f4f4; }
 
+.contact-email-link {
+  color: #00CEFF;
+  text-decoration: none; }
+  .contact-email-link :visited {
+    color: orange; }
+
 .subtitle-wrapper {
   width: 50%; }
 
