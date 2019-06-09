@@ -49,13 +49,15 @@
 .job-title {
   margin-bottom: 10px; }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 760px) {
   .block {
     display: block; }
   #contact {
     height: 100vh;
     display: block;
     padding: 5px; }
+  .contact-title.subtitle {
+    margin: 15px 30px 15px; }
   .contact-info {
     padding: 10px;
     padding-left: 10px;
