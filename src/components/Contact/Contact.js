@@ -11,9 +11,9 @@ const Contact = () => {
       <div className='contact-wrapper'>
         <div className='contact-info'>
           <h3 className='contact-name'>Jesse Packwood</h3>
-          <span>Web Developer and Designer</span>
-          <span>jesse@lokithewolfdog.com</span>
-          <span><span className='plus'>+</span>317 361 0166</span>
+          <span className='job-title'>Software Engineer <span className='contact-plus'>/</span>Photographer</span>
+          <span><span className='contact-plus'>+</span>317 361 0166</span>
+          <span className='contact-email'>jesse@lokithewolfdog.com</span>
         </div>
       </div>
     </div>

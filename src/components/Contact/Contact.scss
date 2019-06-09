@@ -13,6 +13,7 @@
 
 .contact-name {
   font-family: $main-font;
+  margin-bottom: 10px;
 }
 
 #contact {
@@ -42,9 +43,14 @@
   padding-left: 50px;
 }
 
-.plus {
+.contact-plus {
   display: inline-block;
   color: $light-blue;
+  margin-right: 4px;
+}
+
+.job-title {
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 414px) {

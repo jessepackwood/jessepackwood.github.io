@@ -8,6 +8,7 @@
     "npm": "^6.9.0",
     "react": "^16.2.0",
     "react-before-after-slider": "^1.0.4",
+    "react-compare-image": "^0.8.2",
     "react-dom": "^16.2.0",
     "react-image-gallery": "^0.8.16",
     "react-router-dom": "^5.0.0",

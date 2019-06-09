@@ -14,7 +14,8 @@
   color: #131313; }
 
 .contact-name {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 10px; }
 
 #contact {
   display: flex;
@@ -40,9 +41,13 @@
   height: 300px;
   padding-left: 50px; }
 
-.plus {
+.contact-plus {
   display: inline-block;
-  color: #00CEFF; }
+  color: #00CEFF;
+  margin-right: 4px; }
+
+.job-title {
+  margin-bottom: 10px; }
 
 @media screen and (max-width: 414px) {
   .block {
