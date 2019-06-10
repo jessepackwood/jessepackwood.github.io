@@ -1,16 +1,21 @@
 import React from 'react'
-import kayla_buff from '../../assets/photos/kayla_buff.jpg'
-import colombia_fly from '../../assets/photos/colombia_fly.jpg'
+import { render } from 'react-dom';
+import GridGallery from '../Gallery/Gallery'
 import './Photography.css'
 
-const Gallery = () => {
+const Photography = () => {
   return (
-    <div className="gallery">
-      <h1 className='temp-heading'>More photos coming soon</h1>
+    <div>
+    <GridGallery />
+    {/* <div className='mobile-gallery'>
       <img src={ kayla_buff } className='photo' />
       <img src={ colombia_fly } className='photo' />
+      <img src={ peacock_abel } className='photo' />
+      <img src={ janelle_royal } className='photo' />
+      <img src={ gfc_tacoma } className='photo' />
+    </div> */}
     </div>
   )
 }
 
-export default Gallery
+export default Photography

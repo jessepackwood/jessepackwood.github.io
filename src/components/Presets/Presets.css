@@ -50,6 +50,8 @@
     width: 100%;
     margin-left: 0; }
   .preset-button {
-    color: #00CEFF; }
+    color: #00CEFF;
+    width: 100%; }
   .shop-preset-link {
-    margin-top: 15px; } }
+    margin-top: 15px;
+    width: 100%; } }
