@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import menuIcon from '../../assets/menu.svg'
-import resume from '../../assets/Jesse-Packwood-Resume.pdf'
+import resume from '../../assets/Jesse_Packwood_Resume.pdf'
 import { Link } from "react-router-dom"
 
 const Header = ({toggleMobileMenu, menuOpened}) => {
