@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-// import portrait from '../../assets/portrait.jpg'
 import resume from '../../assets/Jesse-Packwood-Resume.pdf'
 
 const About = () => {

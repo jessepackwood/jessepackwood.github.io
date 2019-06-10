@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import menuIcon from '../../assets/menu.svg'
+import resume from '../../assets/Jesse-Packwood-Resume.pdf'
 import { Link } from "react-router-dom"
 
 const Header = ({toggleMobileMenu, menuOpened}) => {
@@ -17,6 +18,7 @@ const Header = ({toggleMobileMenu, menuOpened}) => {
                 <span className='nav-link mobile-link'><Link to='presets' className='route-link' onClick={toggleMobileMenu}>Lightroom Presets</Link></span>
                 <span className='nav-link mobile-link'><Link to='gallery' className='route-link' onClick={toggleMobileMenu}>Gallery</Link></span>                
                 <span className='nav-link mobile-link'><Link to='/about' className='route-link' onClick={toggleMobileMenu}>About</Link></span>
+                <span className='nav-link mobile-link'><a href={resume} className='route-link'>Resume</a></span>
                 <span className='nav-link mobile-link'><Link to='/contact' className='route-link' onClick={toggleMobileMenu}>Contact</Link></span>
               </div>
             )}
