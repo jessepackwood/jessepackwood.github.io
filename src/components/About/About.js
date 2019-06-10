@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import resume from '../../assets/Jesse-Packwood-Resume.pdf'
+import resume from '../../assets/Jesse_Packwood_Resume.pdf'
 
 const About = () => {
   return (
