@@ -6,10 +6,34 @@
   color: #f4f4f4; }
 
 .preset-container {
-  width: 100vw; }
+  width: 100%; }
+
+.preset-title {
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline #00CEFF;
+  margin-bottom: 10px; }
 
 .preset-about {
-  padding: 25px; }
+  margin: 25px;
+  display: flex; }
+
+.preset-button-container {
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.preset-button {
+  width: 150px;
+  height: 75px;
+  font-size: 16px;
+  color: white;
+  background-color: #131313; }
+  .preset-button:hover {
+    color: #00CEFF;
+    cursor: pointer;
+    text-decoration: underline; }
 
 .slider-container {
   padding: 25px; }
@@ -18,7 +42,14 @@
   display: block;
   margin-top: 10px; }
 
-.preset-shop-link {
-  color: #00CEFF; }
-  .preset-shop-link:visited {
-    color: #274156; }
+@media screen and (max-width: 414px) {
+  .preset-about {
+    flex-direction: column;
+    margin: 25px 25px 0 25px; }
+  .preset-button-container {
+    width: 100%;
+    margin-left: 0; }
+  .preset-button {
+    color: #00CEFF; }
+  .shop-preset-link {
+    margin-top: 15px; } }

@@ -1,12 +1,37 @@
 @import '../../variable.scss';
 
 .preset-container {
-  width: 100vw;
-
+  width: 100%;
+}
+.preset-title {
+  font-family: $main-font;
+  text-decoration: underline $light-blue;;
+  margin-bottom: 10px;
+}
+.preset-about {
+  margin: 25px;
+  display: flex;
 }
 
-.preset-about {
-  padding: 25px;
+.preset-button-container {
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preset-button {
+  width: 150px;
+  height: 75px;
+  font-size: 16px;
+  color: white;
+  background-color: $black;
+  &:hover {
+    color: $light-blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 
 .slider-container {
@@ -18,9 +43,19 @@
   margin-top: 10px;
 }
 
-.preset-shop-link {
-  color: $light-blue;
-  &:visited {
-    color: $blue;
+@media screen and (max-width: 414px) {
+  .preset-about {
+    flex-direction: column;
+    margin: 25px 25px 0 25px;
+  }
+  .preset-button-container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .preset-button {
+    color: $light-blue;
+  }
+  .shop-preset-link {
+    margin-top: 15px;
   }
 }

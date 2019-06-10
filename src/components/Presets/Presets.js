@@ -16,9 +16,14 @@ class Presets extends Component {
     return (
       <div className= 'preset-container'>
         <div className='preset-about'>
-          Me and Kelly Lund aka @sharktoof on Instagram have teamed up to offer the presets we developed for our instagram feeds as well as the photos featured on Loki's instagram. 
-          <span className='slider-instruction'>Move the slider from right to left to see how our presets look before and after they are applied.</span>
-          <span className='slider-instruction'>They're available for purchase at <a href='https://lokithewolfdog.com/shop/presets-wolvesinthewind/' className='preset-shop-link'>lokithewolfdog.com</a></span>
+          <div>
+            <h2 className='preset-title'>Lightroom Presets</h2>
+            Me and Kelly Lund aka @sharktoof on Instagram have teamed up to offer the presets we developed for our instagram feeds as well as the photos featured on Loki's instagram account. 
+            <span className='slider-instruction'>Move the slider from right to left to see how our presets look before and after they are applied.</span>
+          </div>
+          <div className='preset-button-container'>
+            <a href='https://lokithewolfdog.com/shop/presets-wolvesinthewind/' className='shop-preset-link'><button className='preset-button'>Shop Presets</button></a>
+          </div>
         </div>
         <div className='slider-container'>
           <h2>Hero</h2>
