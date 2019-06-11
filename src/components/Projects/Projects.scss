@@ -1,4 +1,3 @@
-// @import '../../style/variable.css'
 @import '../../variable.scss';
 
 
@@ -21,27 +20,46 @@
   margin-left: 20px;
 }
 .coin-watch-project {
-  margin-top: 75px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
 }
 
-.featured-project-title {
-  text-align: center;
-  color: orange;
-  text-decoration: none;
-  margin: 0 auto;
-  // display: block;
+.coin-watch-portfolio {
+  width: 100%;
+  margin-top: 40px;
 }
+
 .featured-project-description {
-  margin-top: 10px;
+  font-size: 14pt;
+  margin-top: 20px;
 }
+.project-title {
+
+  font-size: 16pt;
+  font-weight: normal;
+  margin-top: 20px;
+  text-decoration: underline $light-blue;
+}
+
+.tech-used {
+  display: inline;
+  color: $blue;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .other-projects {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 100px 60px 0 0;
   font-size: 18pt;
+  margin-top: 25px;
 }
 
 .project-link {
@@ -52,6 +70,22 @@
   &:visited {
     color: orange;
   }
+}
+
+.project-display {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.project-image {
+  width: 300px;
+}
+
+.project-description {
+  width: 100%;
+  font-size: 14pt;
+  margin-bottom: 25px;
+  display: block;
 }
 
 #projects {
@@ -84,8 +118,7 @@
     height: 60vh;
     padding: 5px;
     vertical-align: middle;
-    width: 100vw;
-    text-align: center;
+    text-align: left;
   }
 
   .other-projects span {
