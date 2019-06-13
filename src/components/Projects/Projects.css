@@ -41,8 +41,8 @@
   text-decoration: underline #00CEFF; }
 
 .tech-used {
-  display: inline;
-  color: #274156; }
+  color: #274156;
+  margin-top: 5px; }
 
 .project-container {
   display: flex;
