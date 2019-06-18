@@ -49,7 +49,7 @@ class Projects extends Component {
         <div>
           {/* <h2 className='project-title'>Coin Watch</h2> */}
         
-        <a href='https://jessepackwood.github.io/CoinWatch/'>
+        <a href='https://jessepackwood.github.io/CoinWatch/home'>
           <div className='coin-watch-project'>
             <img className='coin-watch-phone' src={coinWatchPhone} alt='iphone screen display' />
             <img className='coin-watch' src={coinWatchScreen} alt='GIF of CoinWatch welcome screen' />
