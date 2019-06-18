@@ -84,28 +84,28 @@ const IMAGES =
   thumbnail: gfc_tacoma_thumbnail,
   thumbnailWidth: 400,
   thumbnailHeight: 500,
-  caption: "Go Fast Campers, Montana"
+  caption: "Go Fast Campers - Montana"
 },
 {
   src: kayla_buff,
   thumbnail: kayla_buff_thumbnail,
   thumbnailWidth: 300,
   thumbnailHeight: 212,
-  caption: "Buff USA, Colombia"
+  caption: "Buff USA - Colombia"
 },
 {
   src: colombia_fly,
   thumbnail: colombia_fly_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Umpqua Feather Merchants"
+  caption: "Umpqua Feather Merchants - Colombia"
 },
 {
   src: peacock_abel,
   thumbnail: peacock_abel_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Abel Reels, Colombia"
+  caption: "Abel Reels - Colombia"
 },
 {
   src: jeep_five,
@@ -119,21 +119,21 @@ const IMAGES =
   thumbnail: jakob_cheesman_thumbnail,
   thumbnailWidth: 400,
   thumbnailHeight: 500,
-  caption: "Umpqua Feather Merchants, Colorado"
+  caption: "Umpqua Feather Merchants - Colorado"
 },
 {
   src: janelle_royal,
   thumbnail: janelle_royal_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Janelle shot in Colombia, featured in Iron and Air magazine"
+  caption: "Janelle featured in Iron and Air magazine"
 },
 {
   src: jakob_backcast,
   thumbnail: jakob_backcast_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Umpqua Feather Merchants"
+  caption: "Umpqua Feather Merchants - Colorado"
 },
 {
   src: landon_wheelie,
@@ -146,21 +146,21 @@ const IMAGES =
   thumbnail: matador_surf_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Matador Freerain, Hawaii"
+  caption: "Matador Freerain - Hawaii"
 },
 {
   src: janelle_hood,
   thumbnail: janelle_hood_thumbnail,
   thumbnailWidth: 400,
   thumbnailHeight: 500,
-  caption: "Janelle shot in Colombia, featured in Iron and Air Magazine"
+  caption: "Janelle featured in Iron and Air Magazine"
 },
 {
   src: benchmade_tree,
   thumbnail: benchmade_tree_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Fly Lords & Benchmade Knife Company"
+  caption: "Fly Lords & Benchmade Knife Company - AK"
 },
 {
   src: elfin_cove,
@@ -174,14 +174,14 @@ const IMAGES =
   thumbnail: charley_costa_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Costa Sunglasses, AK"
+  caption: "Costa Sunglasses - AK"
 },
 {
   src: landon_reeling,
   thumbnail: landon_reeling_thumbnail,
   thumbnailWidth: 400,
   thumbnailHeight: 500,
-  caption: "Yeti, AK"
+  caption: "Yeti - AK"
 },
 {
   src: blue_steam,
@@ -195,28 +195,28 @@ const IMAGES =
   thumbnail: shyannne_yeti_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Yeti in AK"
+  caption: "Yeti - AK"
 },
 {
   src: grande_tail,
   thumbnail: grande_tail_thumbnail,
   thumbnailWidth: 400,
   thumbnailHeight: 500,
-  caption: "Redington in Colombia"
+  caption: "Redington Gear - Colombia"
 },
 {
   src: shyanne_backpack,
   thumbnail: shyanne_backpack_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "REI"
+  caption: "REI - AK"
 },
 {
   src: landon_spray,
   thumbnail: landon_spray_thumbnail,
   thumbnailWidth: 320,
   thumbnailHeight: 212,
-  caption: "Fly Lords in Alaska"
+  caption: "Fly Lords - Alaska"
 },
 {
   src: loki_primo,

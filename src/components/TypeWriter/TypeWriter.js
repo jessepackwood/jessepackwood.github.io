@@ -17,7 +17,7 @@ const TypeWriter = () => {
         <span>Click here to learn more.</span>
       </Typist>
       <div className='arrow-wrapper'>
-        <Link to='projects' className='route-link'>
+        <Link to='about' className='route-link'>
           <img className='arrow-down'src={arrowDown} alt='nav arrow down' />
         </Link>
       </div>
