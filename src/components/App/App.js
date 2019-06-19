@@ -6,34 +6,15 @@ import Routes from '../Routes/Routes'
 
 import './App.css'
 
-class App extends Component {
-  
-  constructor() {
-    super();
-
-    this.state = {
-      menuOpened: false
-    }
-  }
-
-
-  toggleMobileMenu = () => {
-    this.setState( oldState => ({menuOpened: !oldState.menuOpened}));
-  }
-
-
-  render() {
-    return (
-      <div className="App">
-        <Header 
-          toggleMobileMenu={this.toggleMobileMenu}
-          menuOpened={this.state.menuOpened}
-        />
-        <Route exact path = "/" component={ TypeWriter } />
-        <Routes />
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className="App">
+      <Header 
+      />
+      <Route exact path = "/" component={ TypeWriter } />
+      <Routes />
+    </div>
+  );
 }
 
 export default App;
