@@ -69,6 +69,18 @@ import trees_fog from '../../assets/portfolio/trees_fog.jpg'
 import cheesman_black from '../../assets/portfolio/cheesman_black.jpg'
 import cheesman_black_thumbnail from '../../assets/portfolio/cheesman_black.jpg'
 
+import hawaii_fly from '../../assets/portfolio/hawaii_fly.jpg'
+import hawaii_fly_thumbnail from '../../assets/portfolio/hawaii_fly_thumbnail.jpg'
+
+import kelty_waterfall from '../../assets/portfolio/kelty_waterfall.jpg'
+import kelty_waterfall_thumbnail from '../../assets/portfolio/kelty_waterfall_thumbnail.jpg'
+
+import kelty_couple from '../../assets/portfolio/kelty_couple.jpg'
+import kelty_couple_thumbnail from '../../assets/portfolio/kelty_couple_thumbnail.jpg'
+
+import kelty_surfboard from '../../assets/portfolio/kelty_surfboard.jpg'
+import kelty_surfboard_thumbnail from '../../assets/portfolio/kelty_surfboard_thumbnail.jpg'
+
 import kayla_landscape from '../../assets/portfolio/kayla_landscape.jpg'
 
 const IMAGES =
@@ -92,6 +104,13 @@ const IMAGES =
   thumbnailWidth: 300,
   thumbnailHeight: 212,
   caption: "Buff USA - Colombia"
+},
+{
+  src: bali_surf,
+  thumbnail: bali_surf_thumbnail,
+  thumbnailWidth: 400,
+  thumbnailHeight: 500,
+  caption: "Uluwatu, Bali"
 },
 {
   src: colombia_fly,
@@ -163,6 +182,13 @@ const IMAGES =
   caption: "Fly Lords & Benchmade Knife Company - AK"
 },
 {
+  src: hawaii_fly,
+  thumbnail: hawaii_fly_thumbnail,
+  thumbnailWidth: 320,
+  thumbnailHeight: 212,
+  caption: "Costa Sunglasses - Hawaii"
+},
+{
   src: elfin_cove,
   thumbnail: elfin_cove_thumbnail,
   thumbnailWidth: 400,
@@ -189,6 +215,13 @@ const IMAGES =
   thumbnailWidth: 320,
   thumbnailHeight: 212,
   caption: "Umpqua Feather Merchants, Colorado"
+},
+{
+  src: kelty_waterfall,
+  thumbnail: kelty_waterfall_thumbnail,
+  thumbnailWidth: 400,
+  thumbnailHeight: 500,
+  caption: "Kelty Brand - Maui"
 },
 {
   src: shyannne_yeti,
@@ -247,13 +280,6 @@ const IMAGES =
   caption: "Umpqua Feather Merchants"
 },
 {
-  src: bali_surf,
-  thumbnail: bali_surf_thumbnail,
-  thumbnailWidth: 400,
-  thumbnailHeight: 500,
-  caption: "Uluwatu, Bali"
-},
-{
   src: kayla_landscape,
   thumbnail: kayla_landscape,
   thumbnailWidth: 320,
@@ -266,7 +292,7 @@ const IMAGES =
   thumbnailWidth: 400,
   thumbnailHeight: 500,
   caption: 'Arbor Anglers, Colorado'
-},
+}
 ]
 
 const GridGallery = () => {
