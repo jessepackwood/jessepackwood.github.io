@@ -66,6 +66,9 @@
 .menu-icon {
   display: none; }
 
+.mobile-link-container {
+  display: none; }
+
 @media screen and (max-width: 680px) {
   .header {
     padding: 10px 15px; } }

@@ -29,7 +29,7 @@ class Header extends Component {
               <div className={this.state.menuOpened ? 'mobile-link-container mobile-opened': 'mobile-link-container'}>
                 <span className='nav-link mobile-link'><Link to='projects' className='route-link' onClick={this.toggleMobileMenu}>Dev Projects</Link></span>
                 <span className='nav-link mobile-link'><Link to='presets' className='route-link' onClick={this.toggleMobileMenu}>Lightroom Presets</Link></span>
-                <span className='nav-link mobile-link'><Link to='gallery' className='route-link' onClick={this.toggleMobileMenu}>Gallery</Link></span>                
+                <span className='nav-link mobile-link'><Link to='gallery' className='route-link' onClick={this.toggleMobileMenu}>Photography</Link></span>                
                 <span className='nav-link mobile-link'><Link to='/about' className='route-link' onClick={this.toggleMobileMenu}>About</Link></span>
                 <span className='nav-link mobile-link'><a href={resume} className='route-link'>Resume</a></span>
                 <span className='nav-link mobile-link'><Link to='/contact' className='route-link' onClick={this.toggleMobileMenu}>Contact</Link></span>
