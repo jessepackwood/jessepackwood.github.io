@@ -301,7 +301,7 @@ const GridGallery = () => {
       <Gallery 
         images={IMAGES} 
         backdropClosesModal={true} 
-        margin={0} 
+        margin={8} 
         rowHeight={250}
         enableImageSelection={false}
       />
