@@ -18,6 +18,7 @@ const About = () => {
           </h3>
           <p>
             He received a Bachelor's of Science in Economics from Indiana University and recently graduated with a full stack education from the Turing School of Software and Design.
+            
           </p>
           <p>
             When not coding, his time goes into other passions such as motorcycles, snowboarding, and traveling the world.
