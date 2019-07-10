@@ -26,12 +26,10 @@
 
 .code-logo {
   height: 35px;
-  margin-right: 25px;
   animation: 
-    show 15.5s,
+    show 20s,
     glow 4s infinite;
   opacity: 1;
-  animation-delay: 0s, 15.5s;
 }
 
 @keyframes show {
