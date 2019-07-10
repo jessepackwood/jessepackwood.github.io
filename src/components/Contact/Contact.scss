@@ -6,8 +6,10 @@
   height: calc(100vh - 150px);
 }
 
-.contact-title {
+.contact-title.subtitle {
   color: $black;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .contact-name {
@@ -22,6 +24,18 @@
   justify-content: space-around;
   align-items: center;
   background: $white;
+}
+
+#contact-logos {
+
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.contact-logo {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
 }
 
 .contact-email-link {
@@ -56,6 +70,10 @@
   margin-right: 4px;
 }
 
+.contact-wrapper {
+  margin-right: 25px;
+}
+
 .job-title {
   margin-bottom: 10px;
 }
@@ -71,8 +89,24 @@
     padding: 5px;
   }
 
+  #contact-logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .contact-logo {
+    margin: 0 10px 0 0;
+  }
   .contact-title.subtitle{
     margin: 15px 30px 15px;
+  }
+
+  .contact-wrapper {
+    margin-right: 0px;
   }
 
   .contact-info {
