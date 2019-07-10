@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import Home from '../Home/Home'
 import Header from '../Header/Header'
 import TypeWriter from '../TypeWriter/TypeWriter'
 import Gallery from '../Gallery/Gallery'
@@ -12,7 +13,7 @@ const App = () => {
     <div className="App">
       <Header 
       />
-      <Route exact path = "/" component={ Gallery } />
+      <Route exact path = "/" component={ Home } />
       <Routes />
     </div>
   );

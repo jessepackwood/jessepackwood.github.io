@@ -1,7 +1,7 @@
 import React from 'react'
 import './TypeWriter.css'
 import Typist from 'react-typist'
-import arrowDown from '../../assets/down-arrows.svg'
+import codeLogo from '../../assets/logos/code.png'
 import { Link } from 'react-router-dom'
 
 const TypeWriter = () => {
@@ -18,7 +18,7 @@ const TypeWriter = () => {
       </Typist>
       <div className='arrow-wrapper'>
         <Link to='about' className='route-link'>
-          <img className='arrow-down'src={arrowDown} alt='nav arrow down' />
+          <img className='code-logo'src={codeLogo} alt='nav arrow down' />
         </Link>
       </div>
     </div>
