@@ -16,13 +16,6 @@ const TypeWriter = () => {
         <Typist.Backspace count={50} delay={750} />
         <span>Click here to learn more.</span>
       </Typist>
-      <Typist
-        startDelay={10000}
-      >
-        
-        <span>Click here to learn more.</span>
-
-      </Typist>
       <div className='arrow-wrapper'>
         <Link to='about' className='route-link'>
           <img className='code-logo'src={codeLogo} alt='nav arrow down' />

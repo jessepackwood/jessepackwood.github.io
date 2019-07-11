@@ -11,8 +11,7 @@ import './App.css'
 const App = () => {
   return (
     <div className="App">
-      <Header 
-      />
+
       <Route exact path = "/" component={ Home } />
       <Routes />
     </div>

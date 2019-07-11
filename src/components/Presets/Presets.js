@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactCompareImage from 'react-compare-image'
+import Header from '../Header/Header'
 import villain_before from '../../assets/presets/villian_before.jpg'
 import villain_after from '../../assets/presets/villian_after.jpg'
 import grizzly_before from '../../assets/presets/grizzly_before.jpg'
@@ -14,6 +15,8 @@ class Presets extends Component {
   render () {
 
     return (
+      <div>
+        <Header />
       <div className= 'preset-container'>
         <div className='preset-about'>
           <div>
@@ -61,6 +64,7 @@ class Presets extends Component {
             rightImageLabel="After"
           />
         </div>
+      </div>
       </div>
     )
   }

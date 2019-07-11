@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../Header/Header'
 import './About.css'
 import resume from '../../assets/Jesse_Packwood_Resume.pdf'
 
 const About = () => {
   return (
+    <div>
+      <Header />
     <div id='about'>
       {/* <div className='subtitle-wrapper'>
         <h2 className='about-title'>About</h2>
@@ -30,6 +33,7 @@ const About = () => {
           <a href={resume} className='resume'><h3 >Resume</h3></a>
         </div>
       </div>
+    </div>
     </div>
     )
 }

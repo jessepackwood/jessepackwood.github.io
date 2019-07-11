@@ -1,4 +1,6 @@
 import React from 'react'  
+import Header from '../Header/Header'
+
 import twitter_logo from '../../assets/logos/twitter_logo.png'
 import instagram_logo from '../../assets/logos/instagram_logo.png'
 import github_logo from '../../assets/logos/github_logo.png'
@@ -8,6 +10,9 @@ import './Contact.css'
 
 const Contact = () => {
   return (
+    <div>
+      <Header />
+    
     <div className='block' id='contact'>
       <div className='subtitle-wrapper'>
         <h2 className='contact-title subtitle'>Contact</h2>
@@ -28,6 +33,7 @@ const Contact = () => {
         </div>
       </div>
       
+    </div>
     </div>
     )
 }

@@ -1,3 +1,4 @@
+import Header from '../Header/Header'
 import coinWatchScreen from '../../assets/macbook-coin-watch.png'
 import coinWatchPhone from '../../assets/iphone-coin-watch.png'
 import coinWatchIpad from '../../assets/ipad-coin-watch.png'
@@ -34,6 +35,9 @@ class Projects extends Component {
 
   render() {
     return (
+      <div>
+        <Header />
+      
       <div id='projects'>
         {/* <div className='test-container'>
           <h1>{this.state.name}</h1>
@@ -90,6 +94,7 @@ class Projects extends Component {
 
           <span><a href='https://github.com/jessepackwood/swapiBox'className='project-link'>SWapiBox</a></span>
         </div>
+      </div>
       </div>
       )
   }
