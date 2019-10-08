@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import './About.css'
-import resume from '../../assets/Jesse_Packwood_Resume.pdf'
+import resume from '../../assets/jesse_packwood_resume.pdf'
 
 const About = () => {
   return (

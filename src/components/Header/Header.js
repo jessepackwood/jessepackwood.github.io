@@ -1,7 +1,7 @@
 
 import './Header.css'
 import menuIcon from '../../assets/menu.svg'
-import resume from '../../assets/Jesse_Packwood_Resume.pdf'
+import resume from '../../assets/jesse_packwood_resume.pdf'
 import { Link } from "react-router-dom"
 
 import React, { Component } from 'react';
