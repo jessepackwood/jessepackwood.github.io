@@ -93,6 +93,7 @@ class Projects extends Component {
           </div>
 
           <span><a href='https://github.com/jessepackwood/swapiBox'className='project-link'>SWapiBox</a></span>
+          (Updated version coming soon)
         </div>
       </div>
       </div>
