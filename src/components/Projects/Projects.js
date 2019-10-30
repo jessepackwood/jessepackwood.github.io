@@ -64,6 +64,7 @@ class Projects extends Component {
         <img src={coinWatchPortfolio} className='coin-watch-portfolio'/>
         </div>
         <div className='featured-project-description'>
+          <div className='heroku-link'><a href='https://coin-watch-jp.herokuapp.com/CoinWatch/home' className='heroku-link'>Live on Heroku!</a></div>
           <p>Coin Watch is a web app that allows users to simply calculate the value of your existing crypto portfolio
             or mock the value of your potential investment in a few easy steps. The main page initially lists all the coins by market cap value but allows the user to sort based on the best or worst performing coins at that time. There is also an option to limit the number of coins being viewed to the top 100. 
           </p>

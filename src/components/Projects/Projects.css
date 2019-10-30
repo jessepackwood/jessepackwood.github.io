@@ -64,6 +64,13 @@
   .project-link:visited {
     color: orange; }
 
+.heroku-link {
+  font-family: 'Raleway', sans-serif;
+  color: orange;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center; }
+
 .project-display {
   width: 100%;
   margin-bottom: 15px; }
