@@ -6,6 +6,9 @@ import movie_tracker_home from '../../assets/projects/movie_tracker_home.png'
 import weathrly_welcome from '../../assets/projects/welcome-screen.png'
 import current_weather from '../../assets/projects/currentweather-7hour.png'
 import coinWatchPortfolio from '../../assets/projects/coin_watch_portfolio.png'
+import swapiBox_scroll from '../../assets/projects/swapiBox_scroll.png'
+import swapiBox_home from '../../assets/projects/swapiBox_home.png'
+import ideaBox from '../../assets/projects/ideaBox.png'
 import './Projects.css'
 
 import React, { Component } from 'react';
@@ -93,8 +96,24 @@ class Projects extends Component {
             </div>
           </div>
 
-          <span><a href='https://github.com/jessepackwood/swapiBox'className='project-link'>SWapiBox</a></span>
-          (Updated version coming soon)
+          <div className='project-container'>
+            <a href='https://jessepackwood.github.io/swapibox' className='project-image-link'><img src={swapiBox_scroll} className='project-display' /></a>
+            <img src={swapiBox_home} className='project-display' />
+            <div className='project-description'>
+              <p>SwapiBox utilizes the Star Wars Api and create-react-app to display people, planets, vehicles, and nested data associated with those endpoints. 
+              </p>
+            <p className='tech-used'>React, SCSS</p>
+            </div>
+          </div>
+          <div className='project-container'>
+            <a href='https://github.com/jessepackwood/JP-MA-Idea-Box' className='project-image-link'><img src={ideaBox} className='project-display' /></a>
+            <div className='project-description'>
+              <p>IdeaBox is my first jQuery project. Our goal was to create an app that allows users to create an idea and append it to the dom. Users could also
+                rank their ideas based on a quality index and then delete the ideas at any time. If the user has a lot of ideas, there is also a search bar available. This project utilizes local storage to store ideas. 
+              </p>
+            <p className='tech-used'>HTML, CSS, jQuery </p>
+            </div>
+          </div>
         </div>
       </div>
       </div>
