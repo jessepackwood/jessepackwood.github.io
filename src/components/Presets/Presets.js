@@ -25,7 +25,7 @@ class Presets extends Component {
             <span className='slider-instruction'>Move the slider from right to left to see how our presets look before and after they are applied.</span>
           </div>
           <div className='preset-button-container'>
-            <a href='https://lokithewolfdog.com/shop/presets-wolvesinthewind/' className='shop-preset-link'><button className='preset-button'>Shop Presets</button></a>
+            <a href='https://lokithewolfdog.com/collections/presets/' className='shop-preset-link'><button className='preset-button'>Shop Presets</button></a>
           </div>
         </div>
         <div className='slider-container'>
