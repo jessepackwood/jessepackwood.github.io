@@ -15,7 +15,7 @@
     "react-scripts": "1.1.4",
     "react-typist": "^2.0.4",
     "react-typist-cycle": "^0.1.2",
-    "twilio-chat": "^3.3.0"
+    "twilio-chat": "^6.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
